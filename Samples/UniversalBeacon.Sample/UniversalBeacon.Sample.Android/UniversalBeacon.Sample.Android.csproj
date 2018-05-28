@@ -57,9 +57,6 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
-    <Reference Include="UniversalBeacon.Sample">
-      <HintPath>..\UniversalBeacon.Sample\bin\Debug\netstandard1.3\UniversalBeacon.Sample.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -86,11 +83,11 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="UniversalBeaconLibrary" Version="3.2.0" />
-    <PackageReference Include="Xamarin.Forms">
-      <Version>2.5.1.444934</Version>
-    </PackageReference>
     <PackageReference Include="opennetcf-ioc-standard">
       <Version>1.0.17213</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms">
+      <Version>2.5.1.527436</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>

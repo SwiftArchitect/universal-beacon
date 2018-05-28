@@ -27,7 +27,7 @@
   <ItemGroup>
     <PackageReference Include="opennetcf-ioc-standard" Version="1.0.17213" />
     <PackageReference Include="UniversalBeaconLibrary" Version="3.2.0" />
-    <PackageReference Include="Xamarin.Forms" Version="2.5.1.444934" />
+    <PackageReference Include="Xamarin.Forms" Version="2.5.1.527436" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
