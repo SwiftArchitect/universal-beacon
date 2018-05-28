@@ -29,4 +29,3 @@ namespace UniversalBeacon.Sample.Droid
         }
     }
 }
-
