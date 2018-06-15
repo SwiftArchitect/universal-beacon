@@ -1,27 +1,30 @@
 ﻿using System;
+using System.Diagnostics;
+using System.Runtime.CompilerServices;
 using Foundation;
 using UniversalBeacon.Library.Core.Interfaces;
 using UniversalBeacon.Library.Core.Interop;
 
 namespace UniversalBeacon.Library
 {
-    public class IOSBluetoothPacketProvider : NSObject, IBluetoothPacketProvider
+    public class iOSBluetoothPacketProvider : NSObject, IBluetoothPacketProvider
     {
         public event EventHandler<BLEAdvertisementPacketArgs> AdvertisementPacketReceived;
         public event EventHandler<BTError> WatcherStopped;
 
-        public IOSBluetoothPacketProvider()
+        public iOSBluetoothPacketProvider()
         {
+            Debug.WriteLine("BluetoothPacketProvider()");
         }
 
         public void Start()
         {
-            throw new NotImplementedException();
+            Debug.WriteLine("BluetoothPacketProvider:Start()");
         }
 
         public void Stop()
         {
-            throw new NotImplementedException();
+            Debug.WriteLine("BluetoothPacketProvider:Stop()");
         }
     }
 }

@@ -51,7 +51,7 @@
     <Folder Include="Resources\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IOSBluetoothPacketProvider.cs" />
+    <Compile Include="iOSBluetoothPacketProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
