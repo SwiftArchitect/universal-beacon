@@ -23,7 +23,7 @@
 	<key>MinimumOSVersion</key>
 	<string>8.0</string>
 	<key>CFBundleDisplayName</key>
-	<string>UniversalBeacon.Sample</string>
+	<string>Beacon</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.yourcompany.UniversalBeacon.Sample</string>
 	<key>CFBundleVersion</key>
