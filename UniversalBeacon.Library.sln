@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversalBeacon.Library.iOS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversalBeacon.Sample.iOS", "Samples\UniversalBeacon.Sample\UniversalBeacon.Sample.iOS\UniversalBeacon.Sample.iOS.csproj", "{B8F3E01C-4F0C-4E7D-B424-E4EAC4ECCA14}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UniversalBeacon.Library.Cocoa", "Library\UniversalBeacon.Library.Cocoa\UniversalBeacon.Library.Cocoa.shproj", "{2D1EF39A-A3B4-46B5-BFF0-FE0D59BDA92B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
@@ -550,6 +552,7 @@ Global
 		{A7A24732-AE60-40BE-92D7-89AA20A2E085} = {0AE03844-3E9C-499C-9227-889327A6450E}
 		{430362FE-C759-4D51-890F-1BF8308FC99F} = {D8B9E2F7-43B8-48D6-8FAE-4B83D9FBF999}
 		{B8F3E01C-4F0C-4E7D-B424-E4EAC4ECCA14} = {0AE03844-3E9C-499C-9227-889327A6450E}
+		{2D1EF39A-A3B4-46B5-BFF0-FE0D59BDA92B} = {D8B9E2F7-43B8-48D6-8FAE-4B83D9FBF999}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {91DF4030-4733-4988-8E77-B4E0828CB8EB}
